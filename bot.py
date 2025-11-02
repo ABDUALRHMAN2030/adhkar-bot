@@ -2,6 +2,7 @@ import os, random
 from telegram import Bot
 from telegram.constants import ParseMode
 
+
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHANNEL_ID = os.environ.get("CHANNEL_ID")
 
