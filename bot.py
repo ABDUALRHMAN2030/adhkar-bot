@@ -1,6 +1,6 @@
 import os, random
 from telegram import Bot
-from telegram.constants import ParseMode
+from telegram import ParseMode
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
